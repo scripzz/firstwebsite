@@ -1,0 +1,63 @@
+<html>
+<head>
+  <title>Airport Locations</title>
+  <style>
+    body {
+      display: flex;
+      height: 75vh;
+      flex-direction: column;
+    }
+
+    .header {
+     padding: 20px;
+     background-image: url(https://www.toursofdistinction.net/site/assets/files/10439/contrailplanetoursofdistinction.1006x0-is-hidpi.jpg); 
+     color: white;
+     font-size: 30px;
+     border: 1px solid black;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+    
+    table {
+      border-collapse: collapse;
+    }
+    
+    th {
+      background-color: #016ABB; 
+      border: 1px solid black;
+      padding: 5px;
+      width: 100px;
+      height: 30px;
+      text-align: center;
+      color: white;
+    }
+    
+    td {
+      border: 1px solid black;
+      padding: 5px;
+      width: 100px;
+      height: 30px;
+      text-align: center;
+    }
+    
+    #searchInput {
+      margin-bottom: 10px;
+      padding: 10px;
+      border: px solid black;
+    }
+  </style>
+  </head>
+   <div class="header">
+   <h1>Airport Locations</h1>
+  </div>
+
+  <input type="text" id="searchInput" placeholder="Suche nach Flughafennamen">
+  
+  <table id="myTable">
+  </table>
+
+  <script src="index.js"></script>
+</body>
+</html> 
